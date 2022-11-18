@@ -1,0 +1,18 @@
+
+Entradas 
+	1.	Si las personas tienen sus productos en la mano
+
+	2.	Si las personas poseen una canasta
+
+	3.	Las personas que empujan un carrito de supermercado medio lleno y la gente que tiene su carrito de supermercado lleno 
+
+	4.	Utiliza el autoservicio
+
+Salidas							 
+	1.	la cola tendrá un tiempo aproximado de 1 minuto
+
+	2.	su tiempo de espera en la cola tendrá un tiempo aproximado de dos minutos para ser atendidos 
+
+	3.	les tomará 5 minutos aproximados en ser  y a los del carrito lleno les tomará 10 minutos 
+
+	4.	Su tiempo será de un 80% del restante
