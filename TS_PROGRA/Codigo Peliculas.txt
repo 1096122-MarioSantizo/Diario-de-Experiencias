@@ -1,0 +1,12 @@
+
+Def inicio ();
+     Johnwick = false
+     Deadpool = true
+     Avenger = true
+
+if johnwick and (deadpool and avengers)
+      Print ("Te puede gustar Dragon Ball")
+
+Else
+
+     Print("Te puede gustar Flash")}

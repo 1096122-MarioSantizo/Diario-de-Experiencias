@@ -1,0 +1,25 @@
+Inicio de Algoritmo
+
+1. Declaramos nuestras variables c, d
+
+2. Con la función escribir pedimos que se ingrese la edad del primer hermano.
+
+3. Esta edad la ingresamos en la variable “a”.
+
+4. Nuevamente con la función escribir pedimos que se ingrese la edad del otro hermano.
+
+5. Esta edad lo ingresamos en la variable “c”.
+
+6. Evaluamos si la variable “c” es igual a la variable “d”.
+
+7. Si la condición se cumple, entonces indicamos que las edades son iguales.
+
+8. Si la condición no se cumple, entonces evaluamos si la variable c es mayor a la variable d.
+
+9. Si esta condición se cumple, entonces indicamos que el hermano 1 es mayor.
+
+10. En el programa se mostrara las edades de los hermanos.
+
+11. Si la condición no se cumple, entonces es lo contrario el hermano 2 es mayor.
+
+12. Y mostramos en pantalla la diferencia de edades, con una operacion basica que es la resta entre ambos el mayor menos el menor.
