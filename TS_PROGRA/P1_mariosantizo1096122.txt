@@ -1,0 +1,110 @@
+using System;
+
+namespace P1_mariosantizo1096122
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool salida = true;
+
+            while (salida)
+            {
+                int num = 0;
+
+                Console.WriteLine("Bienvenido");
+                Console.WriteLine("1. Ingresos");
+                Console.WriteLine("2. Egresos");
+                Console.WriteLine("3. Resultados");
+                Console.WriteLine("4. Salir");
+                Console.WriteLine("Ingrese la opcion que necesita");
+                try
+                {
+                    num = Convert.ToInt16(Console.ReadLine());
+                    Console.WriteLine("> Ingrese el total de ingresos");
+                    int ingresos = Convert.ToInt16(Console.ReadLine());
+                    Console.WriteLine("> Ingrese el total de ingresos");
+                    int egresos = Convert.ToInt16(Console.ReadLine());
+
+                    switch (num)
+                    {
+                        case 1:
+                            Console.WriteLine(ingresos + " - " + egresos + " = " + (ingresos - egresos));
+                            if (ingresos > 0)
+                            {
+                                Console.WriteLine("TUS SALDOS ESTAN MUY BIEN");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Ve al apartado de egresos a ver que pasa");
+                            }
+                            Console.ReadLine();
+                            Console.Clear();
+
+                            break;
+
+                        case 2:
+                       
+                            Console.WriteLine(ingresos + " - " + egresos + " = " + (ingresos - egresos));
+                            if (egresos > 0)
+                            {
+                                Console.WriteLine("TUS SALDOS ESTAN MUY MAL: AQUI TIENES ALGUNOS CONSEJOS" +
+                                    "1. Anote sus retos monetarios más grandes." +
+                                    "2. Mantenga la lista corta para ayudarle a sentirse menos agobiado." +
+                                    "3. Revise su lista cada tres o seis meses a medida que sus circunstancias cambien." +
+                                    "4. Comience con su ingreso total, que es la cantidad de dinero que lleva a casa todos los meses después de impuestos.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Ve al apartado de ingresos a ver que pasa");
+                            }
+                            Console.ReadLine();
+                            Console.Clear();
+
+                            break;
+
+                       
+                         
+                        case 3:
+                            Console.WriteLine("Tus ingresos son " + (ingresos));
+                            Console.WriteLine("Tus egresos son " + (egresos));
+
+                            Console.ReadLine();
+                            Console.Clear();
+
+                            break;
+
+                        
+
+                        case 4:
+                            salida = false;
+
+                            Console.WriteLine("--------------------Gracias por preferirnos----------------");
+                            break;
+
+                        default:
+                            Console.WriteLine("-------Ingresaste una opcion correcta---------------------");
+                            break;
+
+
+
+                    }
+
+
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("----------------Ingresa un valor numerico----------------");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+
+
+
+
+            }
+
+        }
+
+    }
+}
